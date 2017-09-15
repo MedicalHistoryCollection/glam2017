@@ -1,0 +1,20 @@
+Anatomie 	10
+Histologie	100
+Pharmacie	160
+Odontostomatologie	27
+Cardiologie	3001
+Gastéroentérologie	3003
+Neurologie	3007
+Pédiatrie, néonatalogie	3009
+Ophtalmologie	3015
+Vénéro-dermatologie	3016
+Diagnostic	40
+Chirurgie générale	450
+Chirurgie cardio-vasculaire	451
+Obstétrique, gynécologie	456
+Orthopédie, traumatologie	457
+Oto-rhino-laryngologie	458
+Urologie	459
+Anesthésiologie	46
+Radiologie	47
+Médecine sociale et préventive, hygiène, santé et santé publique, handicap	72
