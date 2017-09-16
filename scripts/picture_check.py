@@ -1,4 +1,4 @@
-import csv, os, sys, re
+import csv, os, sys
 
 input_file = sys.argv[1]
 output_file = sys.argv[2]
@@ -12,14 +12,19 @@ with open(input_file) as f:
         writer = csv.DictWriter(g, reader.fieldnames)
         writer.writeheader()
 
+        with_picture = 0
+        without_picture = 0
+
         for row in reader:
             image_filename = row['Image']
 
             variations = [
                 image_filename,
-                'bd.'.join(image_filename.split('.')),
-                'bdbis.'.join(image_filename.split('.')),
-                'bisbd.'.join(image_filename.split('.')),
+                str.upper(image_filename),
+                # Low-definition files:
+                # 'bd.'.join(image_filename.split('.')),
+                # 'bdbis.'.join(image_filename.split('.')),
+                # 'bisbd.'.join(image_filename.split('.')),
             ]
 
             found = False
@@ -33,6 +38,9 @@ with open(input_file) as f:
                     break
 
             if found:
+                with_picture += 1
                 writer.writerow(row)
+            else:
+                without_picture += 1
 
-print('Done')
+print('Found pictures for ', with_picture, ' rows out of ', with_picture+without_picture)
