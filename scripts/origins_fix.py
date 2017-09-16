@@ -1,3 +1,5 @@
+# Remove donor names from 'origin' column of object metadata, and find geolocationsl
+
 import csv, sys, re, requests
 
 api_key = "AIzaSyCQ8YLJ3J5CcGUBB9t9SdL-bSJRrbD_3po"

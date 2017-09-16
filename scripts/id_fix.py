@@ -1,3 +1,5 @@
+# Fix ids that were broken on export from File Maker, and add image filenames.
+
 import csv, sys, re
 
 input_file = sys.argv[1]
