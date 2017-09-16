@@ -4,3 +4,4 @@ node_modules
 myvenv/
 __pycache__/
 *.pyc
+data/pictures_per_categories/
