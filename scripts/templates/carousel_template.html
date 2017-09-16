@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <!-- This file has been downloaded from Bootsnipp.com. Enjoy! -->
-    <title>Carousel Extended - 3.2.0 Compatible - Bootsnipp.com</title>
+    <title>{{ name }}</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="./bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
     <style type="text/css">
@@ -31,7 +31,7 @@ margin-top:20px;
                                 <div class="carousel slide" id="myCarousel">
                                     <!-- Carousel items picture only -->
                                     <div class="carousel-inner">
-                                        {% for object in category %}
+                                        {% for object in objects %}
                                         <div class="active item" data-slide-number="{{ object.rank }}"> <!-- Note: Loic: look for generating the rank -->
                                             <CENTER><img src="{{ object.image_link }}" style="width:80%"></CENTER>
                                         </div>
@@ -51,9 +51,10 @@ margin-top:20px;
 
                             <!-- side car text -->
                             <div id="slide-content" style="display: none;">
-                                {% for object in category %}
+                                {% for object in objects %}
                                 <div id="slide-content-{{ object.rank }}">
-                                    <h1>{{ object.description }}</h1>
+                                    <h1>{{ object.title }}</h1>
+                                    {{ object.description }}
                                 </div>
 
                                 <div>

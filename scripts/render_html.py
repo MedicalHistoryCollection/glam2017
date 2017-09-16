@@ -6,7 +6,7 @@ env = Environment(
     autoescape=select_autoescape(['html', 'xml'])
 )
 
-template = env.get_template('template.html')
+template = env.get_template('carousel_template.html')
 data_dir = 'data/'
 
 categories = {}
@@ -65,7 +65,11 @@ for cat in categories.keys():
 
                     context['objects'].append(object)
 
-    print(context)
+    with open(context['name'] + '.html', 'w') as g:
+        print('Rendering template for category', context['name'])
+
+        g.write(template.render(context))
+
     break
 
 
