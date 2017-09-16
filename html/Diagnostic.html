@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <!-- This file has been downloaded from Bootsnipp.com. Enjoy! -->
+    <title>Diagnostic</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="./bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style type="text/css">
+        .hide-bullets {
+list-style:none;
+margin-left: -40px;
+margin-top:20px;
+}
+    </style>
+    <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="./bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<h1>Diagnostic</h1>
+
+<div class="container">
+        <div id="main_area">
+                <!-- Slider -->
+                <div class="row">
+                    <div class="col-xs-12" id="slider">
+                        <!-- Top part of the slider -->
+                        <div class="row">
+                            <div class="col-sm-8" id="carousel-bounding-box">
+                                <div class="carousel slide" id="myCarousel">
+                                    <!-- Carousel items picture only -->
+                                    <div class="carousel-inner">
+                                        
+                                        <div class="active item" data-slide-number="0"> <!-- Note: Loic: look for generating the rank -->
+                                            <CENTER><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Stéthoscope_monoaural_-_4.jpg/800px-Stéthoscope_monoaural_-_4.jpg" style="width:80%"></CENTER>
+                                        </div>
+                                        
+                                        <div class="active item" data-slide-number="1"> <!-- Note: Loic: look for generating the rank -->
+                                            <CENTER><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Stéthoscope_-_5.jpg/800px-Stéthoscope_-_5.jpg" style="width:80%"></CENTER>
+                                        </div>
+                                        
+                                        <div class="active item" data-slide-number="2"> <!-- Note: Loic: look for generating the rank -->
+                                            <CENTER><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Stéthoscope_monoaural_-_10.jpg/800px-Stéthoscope_monoaural_-_10.jpg" style="width:80%"></CENTER>
+                                        </div>
+                                        
+                                        <div class="active item" data-slide-number="3"> <!-- Note: Loic: look for generating the rank -->
+                                            <CENTER><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Stéthoscope_monoaural_-_148.jpg/800px-Stéthoscope_monoaural_-_148.jpg" style="width:80%"></CENTER>
+                                        </div>
+                                        
+                                        <div class="active item" data-slide-number="4"> <!-- Note: Loic: look for generating the rank -->
+                                            <CENTER><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Marteau_à_réflexe_-_167.jpg/800px-Marteau_à_réflexe_-_167.jpg" style="width:80%"></CENTER>
+                                        </div>
+                                        
+                                        <div class="active item" data-slide-number="5"> <!-- Note: Loic: look for generating the rank -->
+                                            <CENTER><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Sphygmomanomètre_-_204.jpg/800px-Sphygmomanomètre_-_204.jpg" style="width:80%"></CENTER>
+                                        </div>
+                                        
+                                        <div class="active item" data-slide-number="6"> <!-- Note: Loic: look for generating the rank -->
+                                            <CENTER><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Abaisse-langue_-_246.jpg/800px-Abaisse-langue_-_246.jpg" style="width:80%"></CENTER>
+                                        </div>
+                                        
+                                        <div class="active item" data-slide-number="7"> <!-- Note: Loic: look for generating the rank -->
+                                            <CENTER><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Uromètre_-_5014.jpg/800px-Uromètre_-_5014.jpg" style="width:80%"></CENTER>
+                                        </div>
+                                        
+                                        <div class="active item" data-slide-number="8"> <!-- Note: Loic: look for generating the rank -->
+                                            <CENTER><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Uromètres_-_5015.jpg/800px-Uromètres_-_5015.jpg" style="width:80%"></CENTER>
+                                        </div>
+                                        
+                                        <div class="active item" data-slide-number="9"> <!-- Note: Loic: look for generating the rank -->
+                                            <CENTER><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Marteau_à_réflexe_-_IHM-0428.jpg/800px-Marteau_à_réflexe_-_IHM-0428.jpg" style="width:80%"></CENTER>
+                                        </div>
+                                        
+                                        <div class="active item" data-slide-number="10"> <!-- Note: Loic: look for generating the rank -->
+                                            <CENTER><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Marteau_à_réflexe_-_IHM-0429.jpg/800px-Marteau_à_réflexe_-_IHM-0429.jpg" style="width:80%"></CENTER>
+                                        </div>
+                                        
+                                        <div class="active item" data-slide-number="11"> <!-- Note: Loic: look for generating the rank -->
+                                            <CENTER><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Abaisse_langue_en_corne_-_IHM-0431.jpg/800px-Abaisse_langue_en_corne_-_IHM-0431.jpg" style="width:80%"></CENTER>
+                                        </div>
+                                        
+                                        <div class="active item" data-slide-number="12"> <!-- Note: Loic: look for generating the rank -->
+                                            <CENTER><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Dynamomètre_-_IHM-0433.jpg/800px-Dynamomètre_-_IHM-0433.jpg" style="width:80%"></CENTER>
+                                        </div>
+                                        
+                                        <div class="active item" data-slide-number="13"> <!-- Note: Loic: look for generating the rank -->
+                                            <CENTER><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Marteau_à_réflexe_-_IHM-0434.jpg/800px-Marteau_à_réflexe_-_IHM-0434.jpg" style="width:80%"></CENTER>
+                                        </div>
+                                        
+                                        <div class="active item" data-slide-number="14"> <!-- Note: Loic: look for generating the rank -->
+                                            <CENTER><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Marteau_à_réflexe_rétractable_-_IHM-0435.jpg/800px-Marteau_à_réflexe_rétractable_-_IHM-0435.jpg" style="width:80%"></CENTER>
+                                        </div>
+                                        
+                                        <div class="active item" data-slide-number="15"> <!-- Note: Loic: look for generating the rank -->
+                                            <CENTER><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Lot_de_deux_abaisses-langue_-_IHM-0436.jpg/800px-Lot_de_deux_abaisses-langue_-_IHM-0436.jpg" style="width:80%"></CENTER>
+                                        </div>
+                                        
+                                        <div class="active item" data-slide-number="16"> <!-- Note: Loic: look for generating the rank -->
+                                            <CENTER><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Abaisse-langue_-_IHM-0440.jpg/800px-Abaisse-langue_-_IHM-0440.jpg" style="width:80%"></CENTER>
+                                        </div>
+                                        
+                                        <div class="active item" data-slide-number="17"> <!-- Note: Loic: look for generating the rank -->
+                                            <CENTER><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Abaisse-langue_-_IHM-0441.jpg/800px-Abaisse-langue_-_IHM-0441.jpg" style="width:80%"></CENTER>
+                                        </div>
+                                        
+                                        <div class="active item" data-slide-number="18"> <!-- Note: Loic: look for generating the rank -->
+                                            <CENTER><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Lot_de_trois_abaisses-langue_en_verre_-_IHM-0444.jpg/800px-Lot_de_trois_abaisses-langue_en_verre_-_IHM-0444.jpg" style="width:80%"></CENTER>
+                                        </div>
+                                        
+
+                                        <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+                                            <span class="glyphicon glyphicon-chevron-left"></span>
+                                        </a>
+                                        <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+                                            <span class="glyphicon glyphicon-chevron-right"></span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-sm-4" id="carousel-text"></div>
+
+                            <!-- side car text -->
+                            <div id="slide-content" style="display: none;">
+                                
+                                <div id="slide-content-0">
+                                    <h1>Stéthoscope monoaural</h1>
+                                    
+                                </div>
+
+                                <div>
+                                    <ul>
+                                        
+                                    </ul>
+                                </div>
+                                
+                                <div id="slide-content-1">
+                                    <h1>Stéthoscope</h1>
+                                    
+                                </div>
+
+                                <div>
+                                    <ul>
+                                        
+                                    </ul>
+                                </div>
+                                
+                                <div id="slide-content-2">
+                                    <h1>Stéthoscope monoaural</h1>
+                                    
+                                </div>
+
+                                <div>
+                                    <ul>
+                                        
+                                    </ul>
+                                </div>
+                                
+                                <div id="slide-content-3">
+                                    <h1>Stéthoscope monoaural</h1>
+                                    
+                                </div>
+
+                                <div>
+                                    <ul>
+                                        
+                                    </ul>
+                                </div>
+                                
+                                <div id="slide-content-4">
+                                    <h1>Marteau à réflexe</h1>
+                                    
+                                </div>
+
+                                <div>
+                                    <ul>
+                                        
+                                    </ul>
+                                </div>
+                                
+                                <div id="slide-content-5">
+                                    <h1>Sphygmomanomètre</h1>
+                                    Sphygmonamomètre. Inscription: “Dr. Dudgeons. Sphygmograph. J. Ganter Maker. 12 Crauford Street. London. W. No 139”La sphygmologie (du grec spygmos, le battement) figure parmi les plus anciens modes de diagnostic dans toutes les cultures, aussi bien égyptienne, grecque, arabe, indienne et chinoise qu’occidentale. Le pouls est non seulement considéré comme signe évident de vie, mais encore comme un indicateur précieux de maladie.  Les premiers appareils enregistreurs de pouls sont introduits par Karl von Vierordt (1853) et Etienne-Jules Marey (1859) Lourds et encombrants, ils sont perfectionnés plusieurs fois jusqu’en 1881, année où le médecin homéopathe anglais Robert Ellis Dudgeon (1820-1904), conçoit un appareil sensible et compact, qui se fixe facilement au poignet par un lacet. L’instrument est composé d’une série de leviers amplifiant les pulsations de l’artère radiale et les transmettant à une aiguille grattant un papier fumé de 15 cm x 2,5 cm tiré par un mouvement d’horloge mécanique et défilant en dix secondes. Le cadran, gradué en ounces, permet de régler la pression exercée sur l’artère par le levier, sans écraser le pouls.
+                                </div>
+
+                                <div>
+                                    <ul>
+                                        
+                                    </ul>
+                                </div>
+                                
+                                <div id="slide-content-6">
+                                    <h1>Abaisse-langue</h1>
+                                    Abaisse langue en métal chromé.
+                                </div>
+
+                                <div>
+                                    <ul>
+                                        
+                                    </ul>
+                                </div>
+                                
+                                <div id="slide-content-7">
+                                    <h1>Uromètre</h1>
+                                    Modèle du Dr Ulzimann 15°Celsius, sans thermomètre, 1,000 - 1,060.
+                                </div>
+
+                                <div>
+                                    <ul>
+                                        
+                                    </ul>
+                                </div>
+                                
+                                <div id="slide-content-8">
+                                    <h1>Uromètres</h1>
+                                    2 uromètres, modèle du Dr Ulzimann 15°Celsius, sans thermomètre, 1,000 - 1,060.
+                                </div>
+
+                                <div>
+                                    <ul>
+                                        
+                                    </ul>
+                                </div>
+                                
+                                <div id="slide-content-9">
+                                    <h1>Marteau à réflexe</h1>
+                                    
+                                </div>
+
+                                <div>
+                                    <ul>
+                                        
+                                    </ul>
+                                </div>
+                                
+                                <div id="slide-content-10">
+                                    <h1>Marteau à réflexe</h1>
+                                    
+                                </div>
+
+                                <div>
+                                    <ul>
+                                        
+                                    </ul>
+                                </div>
+                                
+                                <div id="slide-content-11">
+                                    <h1>Abaisse langue en corne</h1>
+                                    
+                                </div>
+
+                                <div>
+                                    <ul>
+                                        
+                                    </ul>
+                                </div>
+                                
+                                <div id="slide-content-12">
+                                    <h1>Dynamomètre</h1>
+                                    
+                                </div>
+
+                                <div>
+                                    <ul>
+                                        
+                                    </ul>
+                                </div>
+                                
+                                <div id="slide-content-13">
+                                    <h1>Marteau à réflexe</h1>
+                                    
+                                </div>
+
+                                <div>
+                                    <ul>
+                                        
+                                    </ul>
+                                </div>
+                                
+                                <div id="slide-content-14">
+                                    <h1>Marteau à réflexe rétractable</h1>
+                                    
+                                </div>
+
+                                <div>
+                                    <ul>
+                                        
+                                    </ul>
+                                </div>
+                                
+                                <div id="slide-content-15">
+                                    <h1>Lot de deux abaisses-langue</h1>
+                                    
+                                </div>
+
+                                <div>
+                                    <ul>
+                                        
+                                    </ul>
+                                </div>
+                                
+                                <div id="slide-content-16">
+                                    <h1>Abaisse-langue</h1>
+                                    
+                                </div>
+
+                                <div>
+                                    <ul>
+                                        
+                                    </ul>
+                                </div>
+                                
+                                <div id="slide-content-17">
+                                    <h1>Abaisse-langue</h1>
+                                    
+                                </div>
+
+                                <div>
+                                    <ul>
+                                        
+                                    </ul>
+                                </div>
+                                
+                                <div id="slide-content-18">
+                                    <h1>Lot de trois abaisses-langue en verre</h1>
+                                    
+                                </div>
+
+                                <div>
+                                    <ul>
+                                        
+                                    </ul>
+                                </div>
+                                
+                            </div><!-- Carousel nav -->
+
+                        </div>
+                    </div>
+                </div><!--/Slider-->
+
+                <div class="row hidden-xs" id="slider-thumbs">
+                        <!-- Bottom switcher of slider thumbs -->
+                        <ul class="hide-bullets">
+                            
+                            <li class="col-sm-2">
+                                <a class="thumbnail" id="carousel-selector-0"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Stéthoscope_monoaural_-_4.jpg/800px-Stéthoscope_monoaural_-_4.jpg"></a>
+                            </li>
+                            
+                            <li class="col-sm-2">
+                                <a class="thumbnail" id="carousel-selector-1"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Stéthoscope_-_5.jpg/800px-Stéthoscope_-_5.jpg"></a>
+                            </li>
+                            
+                            <li class="col-sm-2">
+                                <a class="thumbnail" id="carousel-selector-2"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Stéthoscope_monoaural_-_10.jpg/800px-Stéthoscope_monoaural_-_10.jpg"></a>
+                            </li>
+                            
+                            <li class="col-sm-2">
+                                <a class="thumbnail" id="carousel-selector-3"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Stéthoscope_monoaural_-_148.jpg/800px-Stéthoscope_monoaural_-_148.jpg"></a>
+                            </li>
+                            
+                            <li class="col-sm-2">
+                                <a class="thumbnail" id="carousel-selector-4"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Marteau_à_réflexe_-_167.jpg/800px-Marteau_à_réflexe_-_167.jpg"></a>
+                            </li>
+                            
+                            <li class="col-sm-2">
+                                <a class="thumbnail" id="carousel-selector-5"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Sphygmomanomètre_-_204.jpg/800px-Sphygmomanomètre_-_204.jpg"></a>
+                            </li>
+                            
+                            <li class="col-sm-2">
+                                <a class="thumbnail" id="carousel-selector-6"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Abaisse-langue_-_246.jpg/800px-Abaisse-langue_-_246.jpg"></a>
+                            </li>
+                            
+                            <li class="col-sm-2">
+                                <a class="thumbnail" id="carousel-selector-7"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Uromètre_-_5014.jpg/800px-Uromètre_-_5014.jpg"></a>
+                            </li>
+                            
+                            <li class="col-sm-2">
+                                <a class="thumbnail" id="carousel-selector-8"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Uromètres_-_5015.jpg/800px-Uromètres_-_5015.jpg"></a>
+                            </li>
+                            
+                            <li class="col-sm-2">
+                                <a class="thumbnail" id="carousel-selector-9"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Marteau_à_réflexe_-_IHM-0428.jpg/800px-Marteau_à_réflexe_-_IHM-0428.jpg"></a>
+                            </li>
+                            
+                            <li class="col-sm-2">
+                                <a class="thumbnail" id="carousel-selector-10"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Marteau_à_réflexe_-_IHM-0429.jpg/800px-Marteau_à_réflexe_-_IHM-0429.jpg"></a>
+                            </li>
+                            
+                            <li class="col-sm-2">
+                                <a class="thumbnail" id="carousel-selector-11"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Abaisse_langue_en_corne_-_IHM-0431.jpg/800px-Abaisse_langue_en_corne_-_IHM-0431.jpg"></a>
+                            </li>
+                            
+                            <li class="col-sm-2">
+                                <a class="thumbnail" id="carousel-selector-12"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Dynamomètre_-_IHM-0433.jpg/800px-Dynamomètre_-_IHM-0433.jpg"></a>
+                            </li>
+                            
+                            <li class="col-sm-2">
+                                <a class="thumbnail" id="carousel-selector-13"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Marteau_à_réflexe_-_IHM-0434.jpg/800px-Marteau_à_réflexe_-_IHM-0434.jpg"></a>
+                            </li>
+                            
+                            <li class="col-sm-2">
+                                <a class="thumbnail" id="carousel-selector-14"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Marteau_à_réflexe_rétractable_-_IHM-0435.jpg/800px-Marteau_à_réflexe_rétractable_-_IHM-0435.jpg"></a>
+                            </li>
+                            
+                            <li class="col-sm-2">
+                                <a class="thumbnail" id="carousel-selector-15"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Lot_de_deux_abaisses-langue_-_IHM-0436.jpg/800px-Lot_de_deux_abaisses-langue_-_IHM-0436.jpg"></a>
+                            </li>
+                            
+                            <li class="col-sm-2">
+                                <a class="thumbnail" id="carousel-selector-16"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Abaisse-langue_-_IHM-0440.jpg/800px-Abaisse-langue_-_IHM-0440.jpg"></a>
+                            </li>
+                            
+                            <li class="col-sm-2">
+                                <a class="thumbnail" id="carousel-selector-17"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Abaisse-langue_-_IHM-0441.jpg/800px-Abaisse-langue_-_IHM-0441.jpg"></a>
+                            </li>
+                            
+                            <li class="col-sm-2">
+                                <a class="thumbnail" id="carousel-selector-18"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Lot_de_trois_abaisses-langue_en_verre_-_IHM-0444.jpg/800px-Lot_de_trois_abaisses-langue_en_verre_-_IHM-0444.jpg"></a>
+                            </li>
+                            
+                        </ul>
+                </div>
+        </div>
+</div>
+<script type="text/javascript">
+  jQuery(document).ready(function($) {
+
+        $('#myCarousel').carousel({
+                interval: 5000
+        });
+
+        $('#carousel-text').html($('#slide-content-0').html());
+
+        //Handles the carousel thumbnails
+       $('[id^=carousel-selector-]').click( function(){
+            var id = this.id.substr(this.id.lastIndexOf("-") + 1);
+            var id = parseInt(id);
+            $('#myCarousel').carousel(id);
+        });
+
+
+        // When the carousel slides, auto update the text
+        $('#myCarousel').on('slid.bs.carousel', function (e) {
+                 var id = $('.item.active').data('slide-number');
+                $('#carousel-text').html($('#slide-content-'+id).html());
+        });
+});
+</script>
+</body>
+</html>

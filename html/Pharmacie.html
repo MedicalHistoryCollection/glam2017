@@ -1,0 +1,565 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <!-- This file has been downloaded from Bootsnipp.com. Enjoy! -->
+    <title>Pharmacie</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="./bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style type="text/css">
+        .hide-bullets {
+list-style:none;
+margin-left: -40px;
+margin-top:20px;
+}
+    </style>
+    <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="./bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<h1>Pharmacie</h1>
+
+<div class="container">
+        <div id="main_area">
+                <!-- Slider -->
+                <div class="row">
+                    <div class="col-xs-12" id="slider">
+                        <!-- Top part of the slider -->
+                        <div class="row">
+                            <div class="col-sm-8" id="carousel-bounding-box">
+                                <div class="carousel slide" id="myCarousel">
+                                    <!-- Carousel items picture only -->
+                                    <div class="carousel-inner">
+                                        
+                                        <div class="active item" data-slide-number="0"> <!-- Note: Loic: look for generating the rank -->
+                                            <CENTER><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Trousse_de_pharmacie_-_151.jpg/800px-Trousse_de_pharmacie_-_151.jpg" style="width:80%"></CENTER>
+                                        </div>
+                                        
+                                        <div class="active item" data-slide-number="1"> <!-- Note: Loic: look for generating the rank -->
+                                            <CENTER><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Pastilles_SODRI_-_IHM-0190.jpg/800px-Pastilles_SODRI_-_IHM-0190.jpg" style="width:80%"></CENTER>
+                                        </div>
+                                        
+                                        <div class="active item" data-slide-number="2"> <!-- Note: Loic: look for generating the rank -->
+                                            <CENTER><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Poudres_KAFA_-_IHM-0191.jpg/800px-Poudres_KAFA_-_IHM-0191.jpg" style="width:80%"></CENTER>
+                                        </div>
+                                        
+                                        <div class="active item" data-slide-number="3"> <!-- Note: Loic: look for generating the rank -->
+                                            <CENTER><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Pastilles_du_Dr._Belloc_-_IHM-0192.jpg/800px-Pastilles_du_Dr._Belloc_-_IHM-0192.jpg" style="width:80%"></CENTER>
+                                        </div>
+                                        
+                                        <div class="active item" data-slide-number="4"> <!-- Note: Loic: look for generating the rank -->
+                                            <CENTER><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Métaspirine_-_IHM-0193.jpg/800px-Métaspirine_-_IHM-0193.jpg" style="width:80%"></CENTER>
+                                        </div>
+                                        
+                                        <div class="active item" data-slide-number="5"> <!-- Note: Loic: look for generating the rank -->
+                                            <CENTER><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Ripason_-_IHM-0194.jpg/800px-Ripason_-_IHM-0194.jpg" style="width:80%"></CENTER>
+                                        </div>
+                                        
+                                        <div class="active item" data-slide-number="6"> <!-- Note: Loic: look for generating the rank -->
+                                            <CENTER><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Boîte_de_coton_chirurgical_-_IHM-0197.jpg/800px-Boîte_de_coton_chirurgical_-_IHM-0197.jpg" style="width:80%"></CENTER>
+                                        </div>
+                                        
+                                        <div class="active item" data-slide-number="7"> <!-- Note: Loic: look for generating the rank -->
+                                            <CENTER><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Gouttes_MAGALO_-_IHM-0198.jpg/800px-Gouttes_MAGALO_-_IHM-0198.jpg" style="width:80%"></CENTER>
+                                        </div>
+                                        
+                                        <div class="active item" data-slide-number="8"> <!-- Note: Loic: look for generating the rank -->
+                                            <CENTER><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Bandage_Elastoplast_-_IHM-0200.jpg/800px-Bandage_Elastoplast_-_IHM-0200.jpg" style="width:80%"></CENTER>
+                                        </div>
+                                        
+                                        <div class="active item" data-slide-number="9"> <!-- Note: Loic: look for generating the rank -->
+                                            <CENTER><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Bandages_pour_les_doigts_Gazefix_-_IHM-0202.jpg/800px-Bandages_pour_les_doigts_Gazefix_-_IHM-0202.jpg" style="width:80%"></CENTER>
+                                        </div>
+                                        
+                                        <div class="active item" data-slide-number="10"> <!-- Note: Loic: look for generating the rank -->
+                                            <CENTER><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Aspirine_-_IHM-0205.jpg/800px-Aspirine_-_IHM-0205.jpg" style="width:80%"></CENTER>
+                                        </div>
+                                        
+                                        <div class="active item" data-slide-number="11"> <!-- Note: Loic: look for generating the rank -->
+                                            <CENTER><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Boîte_Albuplast_-_IHM-0208.jpg/800px-Boîte_Albuplast_-_IHM-0208.jpg" style="width:80%"></CENTER>
+                                        </div>
+                                        
+                                        <div class="active item" data-slide-number="12"> <!-- Note: Loic: look for generating the rank -->
+                                            <CENTER><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Comprimés_Végélax_-_IHM-0209.jpg/800px-Comprimés_Végélax_-_IHM-0209.jpg" style="width:80%"></CENTER>
+                                        </div>
+                                        
+                                        <div class="active item" data-slide-number="13"> <!-- Note: Loic: look for generating the rank -->
+                                            <CENTER><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Comprimés_Phénergan_-_IHM-0210.jpg/800px-Comprimés_Phénergan_-_IHM-0210.jpg" style="width:80%"></CENTER>
+                                        </div>
+                                        
+                                        <div class="active item" data-slide-number="14"> <!-- Note: Loic: look for generating the rank -->
+                                            <CENTER><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Flacon_Teinture_d’iode_-_IHM-0213.jpg/800px-Flacon_Teinture_d’iode_-_IHM-0213.jpg" style="width:80%"></CENTER>
+                                        </div>
+                                        
+                                        <div class="active item" data-slide-number="15"> <!-- Note: Loic: look for generating the rank -->
+                                            <CENTER><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Bouteille_Eau_des_Carmes_-_IHM-0214.jpg/800px-Bouteille_Eau_des_Carmes_-_IHM-0214.jpg" style="width:80%"></CENTER>
+                                        </div>
+                                        
+                                        <div class="active item" data-slide-number="16"> <!-- Note: Loic: look for generating the rank -->
+                                            <CENTER><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Grains_Miraton_-_IHM-0215.jpg/800px-Grains_Miraton_-_IHM-0215.jpg" style="width:80%"></CENTER>
+                                        </div>
+                                        
+                                        <div class="active item" data-slide-number="17"> <!-- Note: Loic: look for generating the rank -->
+                                            <CENTER><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Dragées_Kina-Redoxon_-_IHM-0217.jpg/800px-Dragées_Kina-Redoxon_-_IHM-0217.jpg" style="width:80%"></CENTER>
+                                        </div>
+                                        
+                                        <div class="active item" data-slide-number="18"> <!-- Note: Loic: look for generating the rank -->
+                                            <CENTER><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Granulés_Histogénol_-_IHM-0218.jpg/800px-Granulés_Histogénol_-_IHM-0218.jpg" style="width:80%"></CENTER>
+                                        </div>
+                                        
+                                        <div class="active item" data-slide-number="19"> <!-- Note: Loic: look for generating the rank -->
+                                            <CENTER><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Bandage_pour_les_doigts_stérile_-_IHM-0221.jpg/800px-Bandage_pour_les_doigts_stérile_-_IHM-0221.jpg" style="width:80%"></CENTER>
+                                        </div>
+                                        
+                                        <div class="active item" data-slide-number="20"> <!-- Note: Loic: look for generating the rank -->
+                                            <CENTER><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Bandage_stérile_-_IHM-0222.jpg/800px-Bandage_stérile_-_IHM-0222.jpg" style="width:80%"></CENTER>
+                                        </div>
+                                        
+                                        <div class="active item" data-slide-number="21"> <!-- Note: Loic: look for generating the rank -->
+                                            <CENTER><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Pilulier_/_planche_à_pilules_?_-_IHM-0244.jpg/800px-Pilulier_/_planche_à_pilules_?_-_IHM-0244.jpg" style="width:80%"></CENTER>
+                                        </div>
+                                        
+                                        <div class="active item" data-slide-number="22"> <!-- Note: Loic: look for generating the rank -->
+                                            <CENTER><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Planche_à_pilules_-_IHM-0245.jpg/800px-Planche_à_pilules_-_IHM-0245.jpg" style="width:80%"></CENTER>
+                                        </div>
+                                        
+                                        <div class="active item" data-slide-number="23"> <!-- Note: Loic: look for generating the rank -->
+                                            <CENTER><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Planche_à_pilules_-_IHM-0246.jpg/800px-Planche_à_pilules_-_IHM-0246.jpg" style="width:80%"></CENTER>
+                                        </div>
+                                        
+                                        <div class="active item" data-slide-number="24"> <!-- Note: Loic: look for generating the rank -->
+                                            <CENTER><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/EPANAL_UN_-_IHM-0666.jpg/800px-EPANAL_UN_-_IHM-0666.jpg" style="width:80%"></CENTER>
+                                        </div>
+                                        
+
+                                        <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+                                            <span class="glyphicon glyphicon-chevron-left"></span>
+                                        </a>
+                                        <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+                                            <span class="glyphicon glyphicon-chevron-right"></span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-sm-4" id="carousel-text"></div>
+
+                            <!-- side car text -->
+                            <div id="slide-content" style="display: none;">
+                                
+                                <div id="slide-content-0">
+                                    <h1>Trousse de pharmacie</h1>
+                                    Boîte en métal avec 12 flacons. Notice pour emplâtre animal “K.B. Privilegirter Kleb-Taffet.”
+                                </div>
+
+                                <div>
+                                    <ul>
+                                        
+                                    </ul>
+                                </div>
+                                
+                                <div id="slide-content-1">
+                                    <h1>Pastilles SODRI</h1>
+                                    Boîte de pastilles.
+                                </div>
+
+                                <div>
+                                    <ul>
+                                        
+                                    </ul>
+                                </div>
+                                
+                                <div id="slide-content-2">
+                                    <h1>Poudres KAFA</h1>
+                                    Boîte Poudres KAFA
+                                </div>
+
+                                <div>
+                                    <ul>
+                                        
+                                    </ul>
+                                </div>
+                                
+                                <div id="slide-content-3">
+                                    <h1>Pastilles du Dr. Belloc</h1>
+                                    Boîtes de pastilles du Dr. Belloc.
+                                </div>
+
+                                <div>
+                                    <ul>
+                                        
+                                    </ul>
+                                </div>
+                                
+                                <div id="slide-content-4">
+                                    <h1>Métaspirine</h1>
+                                    Boîte d’aspirines Métaspirine
+                                </div>
+
+                                <div>
+                                    <ul>
+                                        
+                                    </ul>
+                                </div>
+                                
+                                <div id="slide-content-5">
+                                    <h1>Ripason</h1>
+                                    Boîtes de Ripason
+                                </div>
+
+                                <div>
+                                    <ul>
+                                        
+                                    </ul>
+                                </div>
+                                
+                                <div id="slide-content-6">
+                                    <h1>Boîte de coton chirurgical</h1>
+                                    Boîte de coton chirurgical FLAWA (coton à l’intérieur).
+                                </div>
+
+                                <div>
+                                    <ul>
+                                        
+                                    </ul>
+                                </div>
+                                
+                                <div id="slide-content-7">
+                                    <h1>Gouttes MAGALO</h1>
+                                    Flacon de gouttes MAGALO
+                                </div>
+
+                                <div>
+                                    <ul>
+                                        
+                                    </ul>
+                                </div>
+                                
+                                <div id="slide-content-8">
+                                    <h1>Bandage Elastoplast</h1>
+                                    Boîte de bandage élastique adhésif Elastoplat
+                                </div>
+
+                                <div>
+                                    <ul>
+                                        
+                                    </ul>
+                                </div>
+                                
+                                <div id="slide-content-9">
+                                    <h1>Bandages pour les doigts Gazefix</h1>
+                                    Boîtes de bandages pour les doigts Gazefix avec notice d’emballage.
+                                </div>
+
+                                <div>
+                                    <ul>
+                                        
+                                    </ul>
+                                </div>
+                                
+                                <div id="slide-content-10">
+                                    <h1>Aspirine</h1>
+                                    2 boîtes (1 en métal, 1 en plastique) d’Aspirine.
+                                </div>
+
+                                <div>
+                                    <ul>
+                                        
+                                    </ul>
+                                </div>
+                                
+                                <div id="slide-content-11">
+                                    <h1>Boîte Albuplast</h1>
+                                    Petite boîte Albuplast.
+                                </div>
+
+                                <div>
+                                    <ul>
+                                        
+                                    </ul>
+                                </div>
+                                
+                                <div id="slide-content-12">
+                                    <h1>Comprimés Végélax</h1>
+                                    Comprimés laxatifs Végélax
+                                </div>
+
+                                <div>
+                                    <ul>
+                                        
+                                    </ul>
+                                </div>
+                                
+                                <div id="slide-content-13">
+                                    <h1>Comprimés Phénergan</h1>
+                                    Boîte de 20 comprimés Phénergan (comprimés à l’intérieur), notice d’emballage. 
+                                </div>
+
+                                <div>
+                                    <ul>
+                                        
+                                    </ul>
+                                </div>
+                                
+                                <div id="slide-content-14">
+                                    <h1>Flacon Teinture d’iode</h1>
+                                    Flacon dans boîte Teinture d’iode Jodtinktur
+                                </div>
+
+                                <div>
+                                    <ul>
+                                        
+                                    </ul>
+                                </div>
+                                
+                                <div id="slide-content-15">
+                                    <h1>Bouteille Eau des Carmes</h1>
+                                    Bouteille en verre Eau de Mélisse des Carmes.
+                                </div>
+
+                                <div>
+                                    <ul>
+                                        
+                                    </ul>
+                                </div>
+                                
+                                <div id="slide-content-16">
+                                    <h1>Grains Miraton</h1>
+                                    Boîte Grains Miraton Chatel-Guyon
+                                </div>
+
+                                <div>
+                                    <ul>
+                                        
+                                    </ul>
+                                </div>
+                                
+                                <div id="slide-content-17">
+                                    <h1>Dragées Kina-Redoxon</h1>
+                                    Fiole de 50 dragées dans boîte en carton Kina-Redoxon “ROCHE”, avec notice d’emballage. 
+                                </div>
+
+                                <div>
+                                    <ul>
+                                        
+                                    </ul>
+                                </div>
+                                
+                                <div id="slide-content-18">
+                                    <h1>Granulés Histogénol</h1>
+                                    Boîte en métal Histogénol Naline Granulé.
+                                </div>
+
+                                <div>
+                                    <ul>
+                                        
+                                    </ul>
+                                </div>
+                                
+                                <div id="slide-content-19">
+                                    <h1>Bandage pour les doigts stérile</h1>
+                                    Petit paquet avec bandage stérile pour les doigts.
+                                </div>
+
+                                <div>
+                                    <ul>
+                                        
+                                    </ul>
+                                </div>
+                                
+                                <div id="slide-content-20">
+                                    <h1>Bandage stérile</h1>
+                                    Paquet de bandage stérile.
+                                </div>
+
+                                <div>
+                                    <ul>
+                                        
+                                    </ul>
+                                </div>
+                                
+                                <div id="slide-content-21">
+                                    <h1>Pilulier / planche à pilules ?</h1>
+                                    Pilulier (?) en bois et en acier.
+                                </div>
+
+                                <div>
+                                    <ul>
+                                        
+                                    </ul>
+                                </div>
+                                
+                                <div id="slide-content-22">
+                                    <h1>Planche à pilules</h1>
+                                    Pilulier (?) en bois.
+                                </div>
+
+                                <div>
+                                    <ul>
+                                        
+                                    </ul>
+                                </div>
+                                
+                                <div id="slide-content-23">
+                                    <h1>Planche à pilules</h1>
+                                    Pilulier (?) en verre et en métal.
+                                </div>
+
+                                <div>
+                                    <ul>
+                                        
+                                    </ul>
+                                </div>
+                                
+                                <div id="slide-content-24">
+                                    <h1>EPANAL UN</h1>
+                                    Echantillon médical gratuit d’Epanal Un. Tube métallique dans sa boîte en carton avec ordonnance. Contient 10 pastilles brunes.
+                                </div>
+
+                                <div>
+                                    <ul>
+                                        
+                                    </ul>
+                                </div>
+                                
+                            </div><!-- Carousel nav -->
+
+                        </div>
+                    </div>
+                </div><!--/Slider-->
+
+                <div class="row hidden-xs" id="slider-thumbs">
+                        <!-- Bottom switcher of slider thumbs -->
+                        <ul class="hide-bullets">
+                            
+                            <li class="col-sm-2">
+                                <a class="thumbnail" id="carousel-selector-0"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Trousse_de_pharmacie_-_151.jpg/800px-Trousse_de_pharmacie_-_151.jpg"></a>
+                            </li>
+                            
+                            <li class="col-sm-2">
+                                <a class="thumbnail" id="carousel-selector-1"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Pastilles_SODRI_-_IHM-0190.jpg/800px-Pastilles_SODRI_-_IHM-0190.jpg"></a>
+                            </li>
+                            
+                            <li class="col-sm-2">
+                                <a class="thumbnail" id="carousel-selector-2"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Poudres_KAFA_-_IHM-0191.jpg/800px-Poudres_KAFA_-_IHM-0191.jpg"></a>
+                            </li>
+                            
+                            <li class="col-sm-2">
+                                <a class="thumbnail" id="carousel-selector-3"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Pastilles_du_Dr._Belloc_-_IHM-0192.jpg/800px-Pastilles_du_Dr._Belloc_-_IHM-0192.jpg"></a>
+                            </li>
+                            
+                            <li class="col-sm-2">
+                                <a class="thumbnail" id="carousel-selector-4"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Métaspirine_-_IHM-0193.jpg/800px-Métaspirine_-_IHM-0193.jpg"></a>
+                            </li>
+                            
+                            <li class="col-sm-2">
+                                <a class="thumbnail" id="carousel-selector-5"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Ripason_-_IHM-0194.jpg/800px-Ripason_-_IHM-0194.jpg"></a>
+                            </li>
+                            
+                            <li class="col-sm-2">
+                                <a class="thumbnail" id="carousel-selector-6"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Boîte_de_coton_chirurgical_-_IHM-0197.jpg/800px-Boîte_de_coton_chirurgical_-_IHM-0197.jpg"></a>
+                            </li>
+                            
+                            <li class="col-sm-2">
+                                <a class="thumbnail" id="carousel-selector-7"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Gouttes_MAGALO_-_IHM-0198.jpg/800px-Gouttes_MAGALO_-_IHM-0198.jpg"></a>
+                            </li>
+                            
+                            <li class="col-sm-2">
+                                <a class="thumbnail" id="carousel-selector-8"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Bandage_Elastoplast_-_IHM-0200.jpg/800px-Bandage_Elastoplast_-_IHM-0200.jpg"></a>
+                            </li>
+                            
+                            <li class="col-sm-2">
+                                <a class="thumbnail" id="carousel-selector-9"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Bandages_pour_les_doigts_Gazefix_-_IHM-0202.jpg/800px-Bandages_pour_les_doigts_Gazefix_-_IHM-0202.jpg"></a>
+                            </li>
+                            
+                            <li class="col-sm-2">
+                                <a class="thumbnail" id="carousel-selector-10"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Aspirine_-_IHM-0205.jpg/800px-Aspirine_-_IHM-0205.jpg"></a>
+                            </li>
+                            
+                            <li class="col-sm-2">
+                                <a class="thumbnail" id="carousel-selector-11"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Boîte_Albuplast_-_IHM-0208.jpg/800px-Boîte_Albuplast_-_IHM-0208.jpg"></a>
+                            </li>
+                            
+                            <li class="col-sm-2">
+                                <a class="thumbnail" id="carousel-selector-12"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Comprimés_Végélax_-_IHM-0209.jpg/800px-Comprimés_Végélax_-_IHM-0209.jpg"></a>
+                            </li>
+                            
+                            <li class="col-sm-2">
+                                <a class="thumbnail" id="carousel-selector-13"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Comprimés_Phénergan_-_IHM-0210.jpg/800px-Comprimés_Phénergan_-_IHM-0210.jpg"></a>
+                            </li>
+                            
+                            <li class="col-sm-2">
+                                <a class="thumbnail" id="carousel-selector-14"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Flacon_Teinture_d’iode_-_IHM-0213.jpg/800px-Flacon_Teinture_d’iode_-_IHM-0213.jpg"></a>
+                            </li>
+                            
+                            <li class="col-sm-2">
+                                <a class="thumbnail" id="carousel-selector-15"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Bouteille_Eau_des_Carmes_-_IHM-0214.jpg/800px-Bouteille_Eau_des_Carmes_-_IHM-0214.jpg"></a>
+                            </li>
+                            
+                            <li class="col-sm-2">
+                                <a class="thumbnail" id="carousel-selector-16"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Grains_Miraton_-_IHM-0215.jpg/800px-Grains_Miraton_-_IHM-0215.jpg"></a>
+                            </li>
+                            
+                            <li class="col-sm-2">
+                                <a class="thumbnail" id="carousel-selector-17"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Dragées_Kina-Redoxon_-_IHM-0217.jpg/800px-Dragées_Kina-Redoxon_-_IHM-0217.jpg"></a>
+                            </li>
+                            
+                            <li class="col-sm-2">
+                                <a class="thumbnail" id="carousel-selector-18"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Granulés_Histogénol_-_IHM-0218.jpg/800px-Granulés_Histogénol_-_IHM-0218.jpg"></a>
+                            </li>
+                            
+                            <li class="col-sm-2">
+                                <a class="thumbnail" id="carousel-selector-19"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Bandage_pour_les_doigts_stérile_-_IHM-0221.jpg/800px-Bandage_pour_les_doigts_stérile_-_IHM-0221.jpg"></a>
+                            </li>
+                            
+                            <li class="col-sm-2">
+                                <a class="thumbnail" id="carousel-selector-20"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Bandage_stérile_-_IHM-0222.jpg/800px-Bandage_stérile_-_IHM-0222.jpg"></a>
+                            </li>
+                            
+                            <li class="col-sm-2">
+                                <a class="thumbnail" id="carousel-selector-21"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Pilulier_/_planche_à_pilules_?_-_IHM-0244.jpg/800px-Pilulier_/_planche_à_pilules_?_-_IHM-0244.jpg"></a>
+                            </li>
+                            
+                            <li class="col-sm-2">
+                                <a class="thumbnail" id="carousel-selector-22"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Planche_à_pilules_-_IHM-0245.jpg/800px-Planche_à_pilules_-_IHM-0245.jpg"></a>
+                            </li>
+                            
+                            <li class="col-sm-2">
+                                <a class="thumbnail" id="carousel-selector-23"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Planche_à_pilules_-_IHM-0246.jpg/800px-Planche_à_pilules_-_IHM-0246.jpg"></a>
+                            </li>
+                            
+                            <li class="col-sm-2">
+                                <a class="thumbnail" id="carousel-selector-24"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/EPANAL_UN_-_IHM-0666.jpg/800px-EPANAL_UN_-_IHM-0666.jpg"></a>
+                            </li>
+                            
+                        </ul>
+                </div>
+        </div>
+</div>
+<script type="text/javascript">
+  jQuery(document).ready(function($) {
+
+        $('#myCarousel').carousel({
+                interval: 5000
+        });
+
+        $('#carousel-text').html($('#slide-content-0').html());
+
+        //Handles the carousel thumbnails
+       $('[id^=carousel-selector-]').click( function(){
+            var id = this.id.substr(this.id.lastIndexOf("-") + 1);
+            var id = parseInt(id);
+            $('#myCarousel').carousel(id);
+        });
+
+
+        // When the carousel slides, auto update the text
+        $('#myCarousel').on('slid.bs.carousel', function (e) {
+                 var id = $('.item.active').data('slide-number');
+                $('#carousel-text').html($('#slide-content-'+id).html());
+        });
+});
+</script>
+</body>
+</html>
