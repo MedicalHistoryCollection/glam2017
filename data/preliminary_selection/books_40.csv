@@ -1,3 +1,4 @@
+ID,Date,Title,ISBN,Classification
 1096623164,2012-08-29,A pocket manual of differential diagnosis,0316011061; 9780316011068,40
 1096623163,2012-08-30,Problem-oriented medical diagnosis,0316293547; 9780316293549,40
 1096623162,2012-08-30,Problem-oriented medical diagnosis,0316293598; 9780316293594,40
@@ -11,6 +12,88 @@
 1096899539,2015-11-11,Problem-oriented medical diagnosis,9780316293563; 0316293563,40
 1096898433,2015-04-24,Exercises in diagnostic imaging : for MRCP and other postgraduate examinations,9780407006010; 040700601X,40
 1096897112,2014-05-19,Diagnosis,9781846194641; 1846194644,40
-1094082831,1998-12-17,An essay of health and long life,405118022,72
-1096156337,2010-04-29,"Fit to be tied : sterilization and reproductive rights in America, 1950-1980",40016797557; 9780813545271; 0813545277,DMa
-1096622428,2012-08-07,400 more self assessment picture tests in clinical medicine,0723415161; 9780723415169,E
+1094684929,2003-07-09,Le diagnostic des maladies par les yeux : précis d'iriscopie,none,40
+1094684932,2003-07-09,Traité pratique d'iridologie médicale : technique du diagnostic des maladies par l'examen des yeux,none,40
+1094724677,2005-03-23,L'importance des examens fonctionnels en médecine,none,40
+1096111597,2006-09-06,Les diagnostics biologiques et fonctionnels,none,40
+1096134624,1997-03-03,Manuel de diagnostic médical et d'exploration clinique,none,40
+1096160286,2011-07-18,Précis de sémiologie médicale,none,40
+1093126974,1997-03-03,Principes du diagnostic gynécologique,none,40
+1096134630,1997-03-03,Précis d'auscultation,none,40
+1096622327,2012-07-12,Difficult diagnosis : a guide to the interpretation of obscure illness,none,40
+1096622205,2012-08-13,Wellco-Quiz : wie lautet ihre Diagnose ?,none,40
+1096622204,2012-08-13,Wellco-Quiz : wie lautet ihre Diagnose ?,none,40
+1096624318,2013-01-31,Lehrbuch der Differentialdiagnose innerer Krankheiten,none,40
+1096896689,2014-06-04,Diagnostics urgents : abdomen,none,40
+1096897226,2014-09-03,Symptoms and their interpretation,none,40
+1093142011,1997-03-03,Nouveaux procédés d'exploration : leçons de pathologie générale professées à la Faculté de médecine,none,40
+1093144104,1997-03-03,Spezielle Diagnostik und Therapie in kurzer Darstellung mit Berücksichtigung : aller Zweige der praktischen Medizin,none,40
+1093021296,1997-03-03,Dialogues cliniques,none,40
+1094723633,1997-03-03,Dialogues cliniques,none,40
+1094723562,1997-03-03,Dialogues cliniques,none,40
+1094723563,1997-03-03,Dialogues cliniques,none,40
+1094723632,1997-03-03,Dialogues cliniques,none,40
+1094723631,1997-03-03,Dialogues cliniques,none,40
+1094723637,1997-03-03,Dialogues cliniques,none,40
+1094723636,1997-03-03,Dialogues cliniques,none,40
+1094723635,1997-03-03,Dialogues cliniques,none,40
+1094723634,1997-03-03,Dialogues cliniques,none,40
+1094723630,1997-03-03,Dialogues cliniques,none,40
+1094723629,1997-03-03,Dialogues cliniques,none,40
+1096898412,2015-04-28,Précis de séméiologie médicale élémentaire,none,40
+1094721835,1997-03-03,Diagnostic clinique : examens et symptômes,none,40
+1096134626,1997-03-03,Manuel de sémiologie médicale,none,40
+1096134627,1997-03-03,Eléments de sémiologie médicale,none,40
+1096134622,1997-03-03,Précis de diagnostic clinique,none,40
+1096112973,2009-09-16,Traité de l'auscultation médiate et des maladies des poumons et du coeur,none,40
+1096133278,1997-03-03,Traité de l'auscultation médiate et des maladies des poumons et du coeur,none,40
+1096158073,2010-07-26,Traité de l'auscultation médiate et des maladies des poumons et du coeur,none,40
+1094082868,1998-12-15,Erreurs de diagnostic : leçons données le 24 novembre 1955 au Cours de perfectionnement organisé par la Société vaudoise de médecine avec le concours de la Faculté de médecine de Lausanne,none,40
+1093368354,1997-03-03,Diagnostics difficiles,none,40
+1094709835,2003-07-15,Introduction à l'étude de la chiroscopie médicale,none,40
+1094723542,2005-05-30,Diagnostics pratiques,none,40
+1096134880,2009-09-17,Tests de diagnostic,none,40
+1096622297,2012-07-25,Der diagnostische Blick : Atlas zur Differentialdiagnose innerer Krankheiten,none,40
+1096622539,2012-08-22,L'algodystrophie réflexe,none,40
+1096899700,2015-10-07,"Le diagnostic en médecine interne : diagnostics positif, différentiel, étiologique",none,40
+1096899666,2015-11-11,Examen clinique,none,40
+1096898609,2016-01-06,"Le diagnostic en médecine interne : diagnostics positif, différentiel, étiologique",none,40
+1096897712,1997-03-03,L'art médical : l'individualisation des règles de santé,none,40
+1096898389,1997-03-03,Consultations du médecin-praticien : guide de pratique médico-chirurgicale journalière,none,40
+1093145237,1997-03-03,Die klinische Diagnose der Bauchgeschwülste : vollständige Neubearbeitung der ersten Auflage von E. Pagenstecher,none,40
+1093150118,1997-03-03,Allgemeine und spezielle chirurgische Diagnostik : ein Lehrbuch für Studierende und Ärzte,none,40
+1093180817,1997-03-03,Les bases fondamentales de l'auscultation : interprétation et valeur séméiologique des souffles respiratoires : essais de reproduction expérimentale,none,40
+1099018511,2001-07-03,Die Erschütterung als Diagnosticum und als Heilmittel : ein praktischer Beitrag zur physikalischen Seite der Pathologie und Therapie. Anhang : Die Erschütterung als Gegenbewegung oder Grundform des Lebens in der Natur,none,40
+VD2025760,2005-10-25,Diagnostik und Semiotik : mit vorzüglicher Berücksichtigung der neuensten mechanisch-nosognostischen Hülfsmittel,none,40
+1093215998,1997-03-03,Handbuch und Atlas der topographischen Percussion : nebst einer Darstellung der Lehre vom Percussionsschall,none,40
+1093229725,1997-03-03,Kurt Sprengels Handbuch der Semiotik,none,40
+1093250650,1997-04-26,"Lehrbuch der Auscultation und Percussion : mit besonderer Berücksichtigung der Inspection, Betastung und Messung der Brust und des Unterleibes zu diagnostischen Zwecken",none,40
+1092330354,1997-03-03,Du symptôme à la maladie : guide élémentaire de diagnostic clinique,none,40
+1093304544,1997-04-26,Abhandlung über Perkussion und Auskultation,none,40
+1096134625,1997-03-03,Traité pratique d'auscultation : suivi d'un précis de percussion,none,40
+1092225860,1997-03-03,Diagnostik der chirurgischen Krankheiten,none,40
+1096134623,1997-03-03,Lehrbuch der physikalischen Untersuchungsmethoden innerer Krankheiten,none,40
+1093141071,1997-03-03,Abhandlung über Perkussion und Auskultation,none,40
+RERO-16015177,2014-08-27,Auscultation and percussion : together with the other methods of physical examination of the chest,none,40
+1093226634,1997-03-03,Dictionnaire du diagnostic ou l'art de connoître les maladies et de les distinguer exactement les unes des autres,none,40
+1096156359,1997-03-03,Séméiotique ou traité des signes des maladies,none,40
+1093126193,1997-03-03,"Klinische Diagnostik innerer Krankheiten mittels bakteriologischer, chemischer und mikroskopischer Untersuchungsmethoden",none,40
+1094721832,1997-03-03,Manuel de diagnostic médical,none,40
+1094721833,1997-03-03,Manuel de diagnostic médical,none,40
+1096899263,1997-03-03,Histoire du diagnostic médical,2225448035; 9782225448034,D40
+1096133464,1997-03-03,Histoire du diagnostic en médecine,2864110857; 9782864110859,D40
+1094670413,2001-07-04,Le pronostic en médecine,2864111306; 9782864111306,D40
+1094725241,2005-01-12,"Laennec, Balzac, Chopin et le stéthoscope : ou la diffusion de l'auscultation médiate durant la première moitié du XIXe siècle",2911119460; 9782911119460,D40
+1094082102,1998-07-02,Der abgehorchte Körper : zur historischen Soziologie der medizinischen Untersuchung,3531130471; 9783531130477,D40
+1093069701,1997-03-03,Medizinische Semiotik : 1750 - 1850 : ein Beitrag zur Geschichte des Zeichenbegriffs in der Medizin,3877335128; 9783877335123,D40
+1094670529,2001-05-29,"Anamnese, Diagnose und Therapie",3922506062; 9783922506065,D40
+1094722252,1997-03-03,El diagnóstico médico : historia y teoría,8434521660; 9788434521667,D40
+1094006285,1999-08-30,Diagnosi clinica : storia e metodologia,8826305048; 9788826305042,D40
+1096899449,2015-09-22,Diagnosing giants : solving the medical mysteries of thirteen patients who changed the world,9780199937776; 019993777X,D40
+1096896238,2013-07-04,Au lit du malade : une histoire de l'examen clinique,9782358150712; 2358150711,D40
+1096112174,2007-04-18,L'examen clinique à travers l'histoire,9782911119927; 2911119924,D40
+1093098941,1997-03-03,"History of diagnostics : Proceedings of the 9th International Symposium on the Comparative History of Medicine - East and West, September 23-29, 1984, Susono-shi, Shizuoka, Japan",none,D40
+1093021622,1997-03-03,Die Harnschau und ihr Verschwinden,none,D40
+1096134062,2009-07-10,Die Harnschau und ihr Verschwinden,none,D40
+1093052787,1997-03-03,Geschichte der Palpation von 1775 bis Mitte des 19.Jahrhunderts,none,D40
+1094724526,2005-03-04,The truth of the trace : constructing the power of the medical image,none,D40
