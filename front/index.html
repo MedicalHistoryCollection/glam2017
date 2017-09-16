@@ -3,10 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <title>Medical History collection</title>
-    <!--
     <link rel="stylesheet" href="./bower_components/bootstrap/dist/css/bootstrap.min.css"/>
-    -->
     <link rel="stylesheet" type="text/css" href="bower_components/jqcloud2/dist/jqcloud.css" />
+    <link rel="stylesheet" href="./css/default.css"/>
 
     <!-- Insert this line above script imports  (thanks https://stackoverflow.com/questions/32621988/electron-jquery-is-not-defined ) -->
     <script>if (typeof module === 'object') {window.module = module; module = undefined;}</script>
@@ -20,9 +19,18 @@
 </head>
 
 <body>
+<div class="container">
+    <div class="main">
+
+
     <h1>Medical History Collections</h1>
-    <div id="cloudwords" style="width: 550px; height: 350px; border: 1px solid #ccc;"></div>
+
+    <div id="cloudwords" style="margin-right: auto; margin-left: auto; width: 550px; height: 350px; border: 1px solid #ccc;"></div>
     <script type="text/javascript" src="cloudwords.js"></script>
+
+    </div>
+
+</div>
 </body>
 
 </html>
