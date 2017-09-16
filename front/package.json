@@ -1,21 +1,17 @@
 {
-  "name": "electron-quick-start",
+  "name": "MedicalHistoryCollection",
   "version": "1.0.0",
-  "description": "A minimal Electron application",
+  "description": "GLAM2017 app for MedicalHistoryCollection",
   "main": "main.js",
   "scripts": {
     "start": "electron ."
   },
   "repository": "https://github.com/electron/electron-quick-start",
   "keywords": [
-    "Electron",
-    "quick",
-    "start",
-    "tutorial",
-    "demo"
+    "MedicalHistoryCollection"
   ],
-  "author": "GitHub",
-  "license": "CC0-1.0",
+  "author": "MedicalHistoryCollection",
+  "license": "by-nc-nd 4.0",
   "devDependencies": {
     "electron": "~1.6.2"
   },

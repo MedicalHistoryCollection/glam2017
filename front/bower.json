@@ -1,0 +1,24 @@
+{
+  "name": "MedicalHistoryCollection",
+  "description": "GLAM2017 app for MedicalHistoryCollection",
+  "main": "main.js",
+  "authors": [
+    "MedicalHistoryCollection"
+  ],
+  "license": "by-nc-nd 4.0",
+  "keywords": [
+    "MedicalHistoryCollection"
+  ],
+  "homepage": "https://github.com/MedicalHistoryCollection/glam2017",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "jqcloud2": "^2.0.3"
+  }
+}
