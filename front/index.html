@@ -1,21 +1,30 @@
 <!DOCTYPE html>
 <html>
-  <head>
+<head>
     <meta charset="UTF-8">
-    <title>Hello World!</title>
-    <link rel = "stylesheet" href = "./bower_components/bootstrap/dist/css/bootstrap.min.css" />
-  </head>
-  <body>
-    Chromium <script>document.write(process.versions.chrome)</script>,
+    <title>Medical History collection</title>
+    <!--
+    <link rel="stylesheet" href="./bower_components/bootstrap/dist/css/bootstrap.min.css"/>
+    -->
+    <link rel="stylesheet" type="text/css" href="bower_components/jqcloud2/dist/jqcloud.css" />
+    <script type="text/javascript" src="bower_components/jquery/dist/jquery.js"></script>
+    <script type="text/javascript" src="bower_components/jqcloud2/dist/jqcloud.js"></script>
+    <script type="text/javascript">
+		//require('./renderer.js');
+		var word_list = [
+			{text: "Anatomie", weight: 10, link: 'https://github.com/MedicalHistoryCollection/glam2017'},
+			{text: "Histologie", weight: 100, link: 'https://github.com/MedicalHistoryCollection/glam2017'},
+			{text: "Pharmacie", weight: 160, link: 'https://github.com/MedicalHistoryCollection/glam2017rg'}
+		];
+		$(function() {
+			$("#cloudwords").jQCloud(word_list);
+		});
+    </script>
+</head>
 
-    <div class = "container">
-      <h1>Medical History Collection</h1>
+<body>
+    <h1>Medical History Collections</h1>
+    <div id="cloudwords" style="width: 550px; height: 350px; border: 1px solid #ccc;"></div>
+</body>
 
-    </div>
-  </body>
-
-  <script>
-    // You can also require other files to run in this process
-    require('./renderer.js')
-  </script>
 </html>
