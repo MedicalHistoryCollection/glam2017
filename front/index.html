@@ -7,19 +7,27 @@
     <link rel="stylesheet" href="./bower_components/bootstrap/dist/css/bootstrap.min.css"/>
     -->
     <link rel="stylesheet" type="text/css" href="bower_components/jqcloud2/dist/jqcloud.css" />
+
+    <!-- Insert this line above script imports  (thanks https://stackoverflow.com/questions/32621988/electron-jquery-is-not-defined ) -->
+    <script>if (typeof module === 'object') {window.module = module; module = undefined;}</script>
+
     <script type="text/javascript" src="bower_components/jquery/dist/jquery.js"></script>
     <script type="text/javascript" src="bower_components/jqcloud2/dist/jqcloud.js"></script>
     <script type="text/javascript">
-		//require('./renderer.js');
+		require('./renderer.js');
 		var word_list = [
 			{text: "Anatomie", weight: 10, link: 'https://github.com/MedicalHistoryCollection/glam2017'},
 			{text: "Histologie", weight: 100, link: 'https://github.com/MedicalHistoryCollection/glam2017'},
 			{text: "Pharmacie", weight: 160, link: 'https://github.com/MedicalHistoryCollection/glam2017rg'}
 		];
-		$(function() {
-			$("#cloudwords").jQCloud(word_list);
+		jQuery(function() {
+			jQuery("#cloudwords").jQCloud(word_list);
 		});
     </script>
+
+    <!-- Insert this line after script imports -->
+    <script>if (window.module) module = window.module;</script>
+
 </head>
 
 <body>
