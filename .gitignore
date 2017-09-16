@@ -1,3 +1,6 @@
 bower_components
 node_modules
 .~lock*
+myvenv/
+__pycache__/
+*.pyc
