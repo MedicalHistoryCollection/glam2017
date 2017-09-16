@@ -1,6 +1,5 @@
 ID,Image,Title,Category,Domain,Matching,Description,Documentation,Date,Condition,Creator,Materials,Origin
 4,0004.JPG,Stéthoscope monoaural,Diagnostic,,40,,,20e s.,Bon,Sans marque,,
-5,0005.JPG,Stéthoscope monoaural,Diagnostic,,40,"Stéthoscope monoaural démontable, en bois clair.",,XXème s.,,,,
 5,0005.JPG,Stéthoscope,Diagnostic,,40,,,,,,,
 6,0006.JPG,Cisaille à plâtre,"Orthopédie, traumatologie",,457,,,XXème s.,,Hausmann,,"Dr Eric Rochat, St-Légier"
 7,0007.JPG,Ophtalmoscope du prof. Marc Amsler,Ophtalmologie,Ophtalmologie,3015,Ophtalmoscope du prof. Marc Amsler,,20e s.,moyen,,,"Mme Anne Egli-Décombaz, Zurich"
@@ -32,7 +31,6 @@ ID,Image,Title,Category,Domain,Matching,Description,Documentation,Date,Condition
 195,0195.JPG,Pinces,Chirurgie générale,,450,2 pinces chirurgicales.,,,bon.,,,
 204,0204.JPG,Sphygmomanomètre,Diagnostic,,40,"Sphygmonamomètre. Inscription: “Dr. Dudgeons. Sphygmograph. J. Ganter Maker. 12 Crauford Street. London. W. No 139”La sphygmologie (du grec spygmos, le battement) figure parmi les plus anciens modes de diagnostic dans toutes les cultures, aussi bien égyptienne, grecque, arabe, indienne et chinoise qu’occidentale. Le pouls est non seulement considéré comme signe évident de vie, mais encore comme un indicateur précieux de maladie.  Les premiers appareils enregistreurs de pouls sont introduits par Karl von Vierordt (1853) et Etienne-Jules Marey (1859) Lourds et encombrants, ils sont perfectionnés plusieurs fois jusqu’en 1881, année où le médecin homéopathe anglais Robert Ellis Dudgeon (1820-1904), conçoit un appareil sensible et compact, qui se fixe facilement au poignet par un lacet. L’instrument est composé d’une série de leviers amplifiant les pulsations de l’artère radiale et les transmettant à une aiguille grattant un papier fumé de 15 cm x 2,5 cm tiré par un mouvement d’horloge mécanique et défilant en dix secondes. Le cadran, gradué en ounces, permet de régler la pression exercée sur l’artère par le levier, sans écraser le pouls.",,1881,bon.," J. Ganter Maker, London",,
 246,0246.JPG,Abaisse-langue,Diagnostic,,40,Abaisse langue en métal chromé.,,XXème s.,,,,
-246,0246.JPG,,Diagnostic,,40,,,,,,,
 297,0297.JPG,Sonde,Chirurgie générale,,450,Sonde en forme de “S”.,,,bon.,,,
 298,0298.JPG,Sonde,Chirurgie générale,,450,,,,bon.,,,
 299,0299.JPG,Attelles d’enfants,"Orthopédie, traumatologie",,457,"Lot de 3 attelles en cuir, bois et métal.",,XXème s.,,,,"Dr Eric Rochat, St-Légier"
@@ -62,9 +60,7 @@ ID,Image,Title,Category,Domain,Matching,Description,Documentation,Date,Condition
 438,0438.JPG,Abaisse-langue,Diagnostic,,40,,,20e s.,Bon,"Margot & Jeannet, Lausanne ",,
 478,0478.JPG,bistouri pour abcès péri-amygdales,,ORL,458,,,,Bon,Sans marque,,
 479,0479.JPG,décolleurs d’amygdales,,ORL,458,,,,Bon,E. Gibi Inox,,
-479,0479.JPG,écarteur de pilier,,ORL,458,,,,Bon,Sans marque,,
 480,0480.JPG,abaisse-langue pour narcose ( ou écarte-bouche pour narcose),,ORL,458,,,,Bon,Sans marque,,
-480,0480.JPG,bistouri pour amygdales,,ORL,458,,,,Bon,,,
 482,0482.JPG,3 amygdalotomes,,ORL,458,,,,Bon,,,
 483,0483.JPG,Aiguilles à sutures,,ORL,458,,,20e s.,Bon,Sans marque,,
 484,0484.JPG,Tuyaux de verre pour le lavage des amygdales,,ORL,458,,,,Bon,,,
