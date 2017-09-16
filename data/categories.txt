@@ -15,6 +15,6 @@ Obstétrique, gynécologie	45h 456
 Orthopédie, traumatologie	45j 457
 Oto-rhino-laryngologie	45k 458
 Urologie	45l 459
-Anesthésiologie	46
-Radiologie	47
-Médecine sociale et préventive, hygiène, santé et santé publique, handicap	72
+Anesthésiologie	46  46
+Radiologie	47  47
+Médecine sociale et préventive, hygiène, santé et santé publique, handicap	72  72
