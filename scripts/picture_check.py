@@ -1,3 +1,5 @@
+# Given a metadata file with image filenames, export a version with only existing images.
+
 import csv, os, sys
 
 input_file = sys.argv[1]
