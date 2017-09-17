@@ -34,7 +34,7 @@ with open(os.path.join(data_dir, 'categories.txt')) as f:
 for cat in categories.keys():
     photos = []
 
-    photo_dir = os.path.join(data_dir, 'pictures_per_categories', cat)
+    photo_dir = os.path.join(data_dir, 'photos_selection_by_category', cat)
     if not os.path.isdir(photo_dir):
         continue
 
@@ -85,9 +85,3 @@ for cat in categories.keys():
         g.write(template.render(context))
 
 print('Done')
-
-
-
-                # For each object, need: rank (from 0), title, description, image link, books
-
-                # For each book, need: rero link, title
