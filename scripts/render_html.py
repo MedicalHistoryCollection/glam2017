@@ -11,7 +11,7 @@ env = Environment(
 template = env.get_template('carousel_template.html')
 
 data_dir = 'data/'
-html_dir = 'html/'
+html_dir = 'front/html/'
 categories_file = 'categories.txt'  # Map of object categories to book classifications
 photos_dir = 'photos_selection_by_category'  # Folder of photos selected for the website by IUHMS data owners
 books_dir = 'books_selection_by_category'  # Folder of metadata for books selected for the website by IUHMS data owners
@@ -27,8 +27,9 @@ def get_books(books, rank, books_per_object):
     book_slice = books[rank * books_per_object:rank * books_per_object + books_per_object]
 
     for book in book_slice:
-        if 'none' != book['isbn']:
-            book['renovaud_link'] = renovaud_link.format(book['isbn'])
+        search_term = book['isbn'] if book['isbn'] != 'none' else book['title']
+
+        book['renovaud_link'] = renovaud_link.format(search_term.replace(' ', '%20'))
 
     return book_slice
 
