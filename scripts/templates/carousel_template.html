@@ -32,7 +32,7 @@ margin-top:20px;
                                     <!-- Carousel items picture only -->
                                     <div class="carousel-inner">
                                         {% for object in objects %}
-                                        <div class="active item" data-slide-number="{{ object.rank }}"> <!-- Note: Loic: look for generating the rank -->
+                                        <div class="active item" data-slide-number="{{ object.rank }}">
                                             <CENTER><img src="{{ object.image_link }}" style="width:80%"></CENTER>
                                         </div>
                                         {% endfor %}
@@ -61,7 +61,7 @@ margin-top:20px;
                                     <ul>
                                         {% for book in object.books %}
                                         <li>
-                                            <a href="{{ book.rero_link }}">{{ book.title }}</a>
+                                            <a href="{{ book.renovaud_link }}">{{ book.title }}</a>
                                         </li>
                                         {% endfor %}
                                     </ul>

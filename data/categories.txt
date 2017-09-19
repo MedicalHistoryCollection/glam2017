@@ -1,20 +1,20 @@
-Anatomie	10	10
-Histologie	10a	100
-Pharmacie	16a	160
-Odontostomatologie	27	27
-Cardiologie	30a	3001
-Gastéroentérologie	30c	3003
-Neurologie	30g	3007
-Pédiatrie, néonatalogie	30l	3009
-Ophtalmologie	30s	3015
-Vénéro-dermatologie	30u	3016
-Diagnostic	40	40
-Chirurgie générale	45a	450
-Chirurgie cardio-vasculaire	45b	451
-Obstétrique, gynécologie	45h	456
-Orthopédie, traumatologie	45j	457
-Oto-rhino-laryngologie	45k	458
-Urologie	45l	459
-Anesthésiologie	46	46
-Radiologie	47	47
-Médecine sociale et préventive, hygiène, santé et santé publique, handicap	72	72
+Anatomie	10
+Histologie	10a
+Pharmacie	16a
+Odontostomatologie	27
+Cardiologie	30a
+Gastéroentérologie	30c
+Neurologie	30g
+Pédiatrie, néonatalogie	30l
+Ophtalmologie	30s
+Vénéro-dermatologie	30u
+Diagnostic	40
+Chirurgie générale	45a
+Chirurgie cardio-vasculaire	45b
+Obstétrique, gynécologie	45h
+Orthopédie, traumatologie	45j
+Oto-rhino-laryngologie	45k
+Urologie	45l
+Anesthésiologie	46
+Radiologie	47
+Médecine sociale et préventive, hygiène, santé et santé publique, handicap	72
