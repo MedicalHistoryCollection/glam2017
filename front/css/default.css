@@ -1,4 +1,28 @@
+body {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    background-color: #fff;
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Instruments_de_chirurgie_ophtalmique_-_52.jpg/1346px-Instruments_de_chirurgie_ophtalmique_-_52.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 .main {
+    margin-right: 10%;
+    margin-left: 10%;
+    margin-top: 20%;
     padding: 3rem 1.5rem;
     text-align: center;
+    background-color: rgba(0,0,0,.5);
+    color: white;
+}
+.h1 {
+}
+.cloudwords {
+    margin-right: auto;
+    margin-left: auto;
+    width: 550px;
+    height: 350px;
 }

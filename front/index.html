@@ -25,29 +25,18 @@
 
         <h1>Medical History Collections</h1>
 
-        <div id="cloudwords" style="margin-right: auto; margin-left: auto; width: 550px; height: 350px; border: 1px solid #ccc;"></div>
+        <div id="cloudwords" class="cloudwords"></div>
             <script type="text/javascript">
 				var word_list = [
-					{text: "Anatomie", link: './10', weight: 10 },
-					{text: "Histologie", link: './10a', weight: 100},
-					{text: "Pharmacie", link: './16a', weight: 160},
-					{text: "Odontostomatologie", link: './27', weight: 27},
-					{text: "Cardiologie", link: './30a', weight: 3001},
-					{text: "Gastéroentérologie", link: './30c', weight: 3003},
-					{text: "Neurologie", link: './30g', weight: 3007},
-					{text: "Pédiatrie, néonatalogie", link: './30l', weight: 3009},
-					{text: "Ophtalmologie", link: './30s', weight: 3015},
-					{text: "Vénéro-dermatologie", link: './30u', weight: 3016},
-					{text: "Diagnostic", link: './40', weight: 1000},
-					{text: "Chirurgie générale", link: './45a', weight: 450},
-					{text: "Chirurgie cardio-vasculaire", link: './45b', weight: 451},
-					{text: "Obstétrique, gynécologie", link: './45h', weight: 456},
-					{text: "Orthopédie, traumatologie", link: './45j', weight: 457},
-					{text: "Oto-rhino-laryngologie", link: './45k', weight: 458},
-					{text: "Urologie", link: './45l', weight: 459},
-					{text: "Anesthésiologie", link: './46', weight: 46},
-					{text: "Radiologie", link: './47', weight: 47},
-					{text: "Médecine sociale et préventive", link: './72', weight: 72}
+					{text: "Histologie", link: '../html/Histologie.html', weight: 8},
+					{text: "Pharmacie", link: '../html/Pharmacie.html', weight: 25},
+					{text: "Odontostomatologie", link: '../html/Laboratoire.html', weight: 6},
+					{text: "Ophtalmologie", link: '../html/Ophtalmologie.html', weight: 13},
+					{text: "Diagnostic", link: '../html/Diagnostic.html', weight: 19},
+					{text: "Chirurgie générale", link: '../html/Chirurgie générale.html', weight: 7},
+					{text: "Obstétrique, gynécologie", link: '../html/Obstétrique.html', weight: 4},
+					{text: "Oto-rhino-laryngologie", link: '../html/ORL.html', weight: 20},
+					{text: "Anesthésiologie", link: '../html/Anesthésiologie.html', weight: 9}
                 ];
 				$(function() {
 					$("#cloudwords").jQCloud(word_list);
